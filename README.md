@@ -2,14 +2,15 @@
 
 =         Stations (summary)           =
 ========================================
-:001 | :Armchair        | :654321: |   
-:002 | :Bed             | :123456: |   
-:003 | :Dresser         | :056789: |   
-:004 | :Nighttable      | :000887: |   
-:005 | :Filing Cabinet  | :987654: |   
-:006 | :Office Chair    | :147852: |   
-:007 | :Bookcase        | :000987: |    
-:008 | :Desk            | :459214: |    
+|:---|:---|:---:|
+001 | Armchair        | 654321 |   
+002 | Bed             | 123456 |   
+003 | Dresser         | 056789 |   
+004 | Nighttable      | 000887 |   
+005 | Filing Cabinet  | 987654 |   
+006 | Office Chair    | 147852 |   
+007 | Bookcase        | 000987 |    
+008 | Desk            | 459214 |    
 
 
 =          Stations (full)             =
