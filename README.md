@@ -1,30 +1,31 @@
 # Production-Line-Order-Management Output
-
+========================================
 =         Stations (summary)           =
 ========================================
-|:---|:---|:---:|
-001|Armchair|654321|  
-002|Bed|123456|   
-003|Dresser|056789|   
-004|Nighttable|000887|   
-005|Filing Cabinet|987654|   
-006|Office Chair|147852|   
-007|Bookcase|000987|    
-008|Desk|459214|    
+001 | Armchair        | 654321 | 
+002 | Bed             | 123456 | 
+003 | Dresser         | 056789 | 
+004 | Nighttable      | 000887 | 
+005 | Filing Cabinet  | 987654 | 
+006 | Office Chair    | 147852 | 
+007 | Bookcase        | 000987 | 
+008 | Desk            | 459214 | 
 
 
+========================================
 =          Stations (full)             =
 ========================================
-001 | Armchair        | 654321 |   10 | Upholstered Wing Chair   
-002 | Bed             | 123456 |    5 | Queen size bed with headboard   
-003 | Dresser         | 056789 |    7 | 6-Drawer Unit   
-004 | Nighttable      | 000887 |    5 | Nightstand with 2 drawers   
-005 | Filing Cabinet  | 987654 |    5 | 3-drawer filing cabinet   
-006 | Office Chair    | 147852 |   20 | High-back carpet-rollers   
-007 | Bookcase        | 000987 |    5 | 5-shelf open bookcase    
-008 | Desk            | 459214 |    2 | 6-foot worktable   
+001 | Armchair        | 654321 |   10 | Upholstered Wing Chair
+002 | Bed             | 123456 |    5 | Queen size bed with headboard
+003 | Dresser         | 056789 |    7 | 6-Drawer Unit
+004 | Nighttable      | 000887 |    5 | Nightstand with 2 drawers
+005 | Filing Cabinet  | 987654 |    5 | 3-drawer filing cabinet
+006 | Office Chair    | 147852 |   20 | High-back carpet-rollers
+007 | Bookcase        | 000987 |    5 | 5-shelf open bookcase
+008 | Desk            | 459214 |    2 | 6-foot worktable
 
 
+========================================
 =          Manual Validation           =
 ========================================
 getItemName(): Armchair
@@ -34,6 +35,7 @@ getQuantity(): 10
 getQuantity(): 9
 
 
+========================================
 =                Orders                =
 ========================================
 Cornel B. - 1-Room Home Office
@@ -77,6 +79,7 @@ Rania A. - 2-Room Home Office and Bedroom
 [000000] Dresser                          - TO BE FILLED
 
 
+========================================
 =       Display Stations (loaded)      =
 ========================================
 Nighttable --> Desk
@@ -89,6 +92,7 @@ Armchair --> Nighttable
 Desk --> Office Chair
 
 
+========================================
 =      Display Stations (ordered)      =
 ========================================
 Bed --> Dresser
@@ -101,6 +105,7 @@ Filing Cabinet --> Bookcase
 Bookcase --> End of Line
 
 
+========================================
 =           Filling Orders             =
 ========================================
 Line Manager Iteration: 1
@@ -110,19 +115,19 @@ Line Manager Iteration: 2
 Line Manager Iteration: 3
     Filled John M., Kids Bedroom [Bed]
     Filled Chris S., Bedroom [Dresser]
-    Filled Cornel B., 1-Room Home Office [Office Chair]
+    Filled Cornel B., 1-Room Office [Office Chair]
 Line Manager Iteration: 4
     Filled John M., Kids Bedroom [Bed]
     Filled Chris S., Bedroom [Armchair]
-    Filled Cornel B., 1-Room Home Office [Filing Cabinet]
+    Filled Cornel B., 1-Room Office [Filing Cabinet]
 Line Manager Iteration: 5
     Filled John M., Kids Bedroom [Bed]
     Filled Chris S., Bedroom [Nighttable]
-    Filled Cornel B., 1-Room Home Office [Bookcase]
+    Filled Cornel B., 1-Room Office [Bookcase]
 Line Manager Iteration: 6
     Filled John M., Kids Bedroom [Bed]
     Filled Chris S., Bedroom [Nighttable]
-    Filled Cornel B., 1-Room Home Office [Bookcase]
+    Filled Cornel B., 1-Room Office [Bookcase]
 Line Manager Iteration: 7
     Filled John M., Kids Bedroom [Dresser]
 Line Manager Iteration: 8
@@ -157,6 +162,7 @@ Line Manager Iteration: 17
 Line Manager Iteration: 18
 
 
+========================================
 =      Processed Orders (complete)     =
 ========================================
 Cornel B. - 1-Room Home Office
@@ -182,6 +188,7 @@ John M. - Kids Bedroom
 [459215] Desk                             - FILLED
 
 
+========================================
 =     Processed Orders (incomplete)    =
 ========================================
 Hong H. - 1-Room Office
@@ -204,6 +211,7 @@ Rania A. - 2-Room Home Office and Bedroom
 [056791] Dresser                          - FILLED
 
 
+========================================
 =          Inventory (full)            =
 ========================================
 001 | Armchair        | 654325 |    7 | Upholstered Wing Chair
@@ -214,4 +222,3 @@ Rania A. - 2-Room Home Office and Bedroom
 006 | Office Chair    | 147858 |   14 | High-back carpet-rollers
 007 | Bookcase        | 000990 |    2 | 5-shelf open bookcase
 008 | Desk            | 459216 |    0 | 6-foot worktable
-
