@@ -88,7 +88,6 @@ Armchair --> Nighttable
 Desk --> Office Chair
 
 
-========================================
 =      Display Stations (ordered)      =
 ========================================
 Bed --> Dresser
