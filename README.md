@@ -1,8 +1,5 @@
-# Production-Line-Order-Management
+# Production-Line-Order-Management Output
 
-Output
-
-========================================
 =         Stations (summary)           =
 ========================================
 001 | Armchair        | 654321 | 
@@ -15,7 +12,6 @@ Output
 008 | Desk            | 459214 | 
 
 
-========================================
 =          Stations (full)             =
 ========================================
 001 | Armchair        | 654321 |   10 | Upholstered Wing Chair
@@ -28,7 +24,6 @@ Output
 008 | Desk            | 459214 |    2 | 6-foot worktable
 
 
-========================================
 =          Manual Validation           =
 ========================================
 getItemName(): Armchair
@@ -38,7 +33,6 @@ getQuantity(): 10
 getQuantity(): 9
 
 
-========================================
 =                Orders                =
 ========================================
 Cornel B. - 1-Room Home Office
@@ -82,7 +76,6 @@ Rania A. - 2-Room Home Office and Bedroom
 [000000] Dresser                          - TO BE FILLED
 
 
-========================================
 =       Display Stations (loaded)      =
 ========================================
 Nighttable --> Desk
@@ -108,7 +101,6 @@ Filing Cabinet --> Bookcase
 Bookcase --> End of Line
 
 
-========================================
 =           Filling Orders             =
 ========================================
 Line Manager Iteration: 1
@@ -165,7 +157,6 @@ Line Manager Iteration: 17
 Line Manager Iteration: 18
 
 
-========================================
 =      Processed Orders (complete)     =
 ========================================
 Cornel B. - 1-Room Home Office
@@ -191,7 +182,6 @@ John M. - Kids Bedroom
 [459215] Desk                             - FILLED
 
 
-========================================
 =     Processed Orders (incomplete)    =
 ========================================
 Hong H. - 1-Room Office
@@ -214,7 +204,6 @@ Rania A. - 2-Room Home Office and Bedroom
 [056791] Dresser                          - FILLED
 
 
-========================================
 =          Inventory (full)            =
 ========================================
 001 | Armchair        | 654325 |    7 | Upholstered Wing Chair
